@@ -46,7 +46,12 @@ const Hero = () => {
                 </Button>
               </Link>
               <Button variant="secondary" className="gap-x-2">
-                <Link className="flex gap-x-2 items-center" href="https://drive.google.com/file/d/1Ac8wd4mgl-t2yR2BXemRgvAs_c0As8bq/view?usp=drive_link">Download CV <Download size={18} /></Link>
+                <Link
+                  className="flex gap-x-2 items-center"
+                  href="https://drive.google.com/file/d/1SZ-kRfcXrKiso8FbW7SD-zozhV-6f_pE/view?usp=drive_link"
+                >
+                  Download CV <Download size={18} />
+                </Link>
               </Button>
             </div>
 
