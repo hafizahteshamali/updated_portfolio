@@ -23,19 +23,19 @@ const Hero = () => {
           {/* text */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
             <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px] ">
-              Web Developer
+              MERN Stack Developer
             </div>
             <h1 className="h1 mb-4">Hello, my name is Hafiz Ahtesham Ali</h1>
 
             <p className="subtitle max-w-[490px] mx-auto xl:mx-0">
-              I'm Hafiz Ahtesham Ali, a frontend developer passionate about
-              crafting engaging digital experiences. With expertise in HTML,
-              CSS, Bootstrap, JavaScript, Tailwind CSS, local storage, Firebase,
-              React JS, Express.js, Node.js, and MongoDB, I specialize in
-              creating user-friendly interfaces that exceed expectations. I
-              thrive on collaboration, continuous learning, and delivering
-              exceptional results. Let's connect and bring your projects to
-              life!
+              "I'm Hafiz Ahtesham Ali, a MERN stack developer passionate about
+              building dynamic and scalable web applications. With expertise in
+              HTML, CSS, Bootstrap, JavaScript, Tailwind CSS, Firebase, React
+              JS, Node.js, Express.js, and MongoDB, I specialize in creating
+              robust, user-friendly interfaces and backend solutions that exceed
+              expectations. I thrive on collaboration, continuous learning, and
+              delivering exceptional results. Let's connect and bring your
+              projects to life!"
             </p>
 
             {/* buttons */}
@@ -48,7 +48,7 @@ const Hero = () => {
               <Button variant="secondary" className="gap-x-2">
                 <Link
                   className="flex gap-x-2 items-center"
-                  href="https://drive.google.com/file/d/1SZ-kRfcXrKiso8FbW7SD-zozhV-6f_pE/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1b8r0BM33R24osDO3Cl4F4Zv8s2i0R2AH/view?usp=drive_link"
                 >
                   Download CV <Download size={18} />
                 </Link>

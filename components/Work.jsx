@@ -197,7 +197,7 @@ const Work = () => {
         <div className="max-w-[400px] mx-auto xl:mx-0 text-center mb-12 xl:h-[400px] flex flex-col justify-center items-center">
           <h2 className="section-title text-center mb-4">Latest Projects</h2>
           <p className="subtitle mb-8">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            "Crafting Scalable, User-Friendly Applications with Modern Technologies"
           </p>
           <Link href="/projects">
             <Button>All Projects</Button>
