@@ -64,19 +64,19 @@ const qualificationData = [
     title: "experience",
     data: [
       {
-        company: "Atia General Hospital",
-        designation: "Administration Staff",
-        timePeriod: "Mar(2020) - Apr(2021)",
+        company: "Vinspyre (pvt) Ltd",
+        designation: "MERN Stack Developer",
+        timePeriod: "June(2024) - Present",
+      },
+      {
+        company: "Syhtek Software Solution",
+        designation: "Frontend Developer",
+        timePeriod: "Feb(2024) - June(2024)",
       },
       {
         company: "CodSoft",
         designation: "Frontend Developer",
         timePeriod: "Mar(2024) - Apr(2024)",
-      },
-      {
-        company: "Syhtek Software Solution",
-        designation: "Frontend Developer",
-        timePeriod: "Aug(2024) - Dec(2024)",
       },
     ],
   },
@@ -194,12 +194,13 @@ const About = () => {
                 <TabsContent value="personal">
                   <div className="text-center xl:text-left">
                     <h3 className="h3 mb-4 ">
-                      Unmatched Serveices Quality for over 10 years
+                      Unmatched Service Quality in MERN Stack Development
                     </h3>
                     <p className="subtitle max-w-xl mx-auto xl:mx-0">
-                      I specialize in crafting intuitive websites with
-                      cutting-edge technology, delivering dynamic and engaging
-                      user experience.
+                      With expertise in MongoDB, Express.js, React.js, and
+                      Node.js, I specialize in building dynamic, scalable, and
+                      user-friendly web applications, ensuring seamless
+                      performance and an engaging user experience.
                     </p>
                     {/* icons */}
                     <div className="grid xl:grid-cols-2 gap-4 mb-12">
@@ -320,29 +321,44 @@ const About = () => {
                       <div className="border-b border-border mb-4"></div>
                       {/* skill list */}
                       <div className="flex flex-wrap">
-                        {getData(skillData, 'skills').data.map((item, index)=>{
-                          const {name} = item;
-                          return(
-                            <div className="w-2/4 text-center xl:text-left mx-auto xl:mx-0" key={index}>
-                              <div className="font-medium">{name}</div>
-                            </div>
-                          )
-                        })}
+                        {getData(skillData, "skills").data.map(
+                          (item, index) => {
+                            const { name } = item;
+                            return (
+                              <div
+                                className="w-2/4 text-center xl:text-left mx-auto xl:mx-0"
+                                key={index}
+                              >
+                                <div className="font-medium">{name}</div>
+                              </div>
+                            );
+                          }
+                        )}
                       </div>
                     </div>
                     {/* tools */}
                     <div>
-                        <h4 className="text-xl font-semibold mb-2 xl:text-left">Tools</h4>
-                        <div className="border-b border-border mb-4"></div>
-                        {/* tools list */}
-                        <div className="flex gap-x-8 justify-center xl:justify-start ">
-                            {getData(skillData, 'tools').data.map((item, index)=>{
-                              const {imgPath} = item;
-                              return <div key={index}>
-                                <Image src={imgPath} width={48} height={48} alt="" priority />
-                              </div>
-                            })}
-                        </div>
+                      <h4 className="text-xl font-semibold mb-2 xl:text-left">
+                        Tools
+                      </h4>
+                      <div className="border-b border-border mb-4"></div>
+                      {/* tools list */}
+                      <div className="flex gap-x-8 justify-center xl:justify-start ">
+                        {getData(skillData, "tools").data.map((item, index) => {
+                          const { imgPath } = item;
+                          return (
+                            <div key={index}>
+                              <Image
+                                src={imgPath}
+                                width={48}
+                                height={48}
+                                alt=""
+                                priority
+                              />
+                            </div>
+                          );
+                        })}
+                      </div>
                     </div>
                   </div>
                 </TabsContent>
