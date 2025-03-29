@@ -48,7 +48,7 @@ const Hero = () => {
               <Button variant="secondary" className="gap-x-2">
                 <Link
                   className="flex gap-x-2 items-center"
-                  href="https://drive.google.com/file/d/1orB35R33UZ_BV7GuslSzu3UcGI_j75Un/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/17jePkMOySxyugl2-Q_l5drufS7SCLzqP/view?usp=drive_link"
                 >
                   Download CV <Download size={18} />
                 </Link>
