@@ -66,7 +66,7 @@ const qualificationData = [
       {
         company: "Vinspyre (pvt) Ltd",
         designation: "MERN Stack Developer",
-        timePeriod: "June(2024) - Present",
+        timePeriod: "October(2024) - Present",
       },
       {
         company: "Syhtek Software Solution",

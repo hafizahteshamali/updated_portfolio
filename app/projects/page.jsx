@@ -14,6 +14,14 @@ const projectData = [
     link: "https://contact-directory-hqlg.vercel.app/",
   },
   {
+    image: "/work/finance-img.png",
+    category: "Backend",
+    description:
+      "Developed a Finance App using ReactJS for the frontend and Express.js, Node.js, and MongoDB for the backend, enabling users to efficiently manage their expenses, track transactions, and generate financial reports. Implemented CRUD operations, responsive design, and secure authentication for a seamless user experience.",
+    name: "Finance App",
+    link: "https://final-hackathon-u3he.vercel.app/",
+  },
+  {
     image: "/work/nextjs-1.png",
     category: "Next.Js",
     description:
