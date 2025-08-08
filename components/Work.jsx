@@ -2,16 +2,11 @@
 import Link from "next/link";
 import { Button } from "./ui/button";
 
-// import swipper components
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from 'swiper';
+import { Pagination } from "swiper/modules";
 
-// import Swipper styles
 import "swiper/css";
 import "swiper/css/pagination";
-
-// import required modules
-import { pagination } from "swiper/modules";
 
 //components
 import ProjectCard from "@/components/ui/ProjectCard";
@@ -191,42 +186,43 @@ const projectData = [
 
 const Work = () => {
   return (
-    <section className="relative mb-12 xl:mb-48">
-      <div className="container mx-auto">
-        {/* text */}
-        <div className="max-w-[400px] mx-auto xl:mx-0 text-center mb-12 xl:h-[400px] flex flex-col justify-center items-center">
-          <h2 className="section-title text-center mb-4">Latest Projects</h2>
-          <p className="subtitle mb-8">
-            "Crafting Scalable, User-Friendly Applications with Modern Technologies"
-          </p>
-          <Link href="/projects">
-            <Button>All Projects</Button>
-          </Link>
+    <section className="mb-[100px]">
+      <div className="container mx-auto w-[90%]">
+        <div className="flex flex-col lg:flex-row justify-between items-center">
+          {/* text */}
+          <div className="w-full !lg:w-[40%] mx-auto xl:mx-0 text-center mb-12 flex flex-col justify-center items-center">
+            <h2 className="section-title text-center mb-4">Latest Projects</h2>
+            <p className="subtitle mb-8">
+              "Crafting Scalable, User-Friendly Applications with Modern
+              Technologies"
+            </p>
+            <Link href="/projects">
+              <Button>All Projects</Button>
+            </Link>
+          </div>
+
+          <div className="w-full lg:!w-[60%]">
+            <Swiper
+              spaceBetween={30}
+              pagination={false} // dots disabled
+              breakpoints={{
+                0: {
+                  slidesPerView: 1,
+                },
+                1024: {
+                  slidesPerView: 2,
+                },
+              }}
+              modules={[Pagination]}
+            >
+              {projectData.slice(0, 5).map((project, index) => (
+                <SwiperSlide key={index}>
+                  <ProjectCard project={project} />
+                </SwiperSlide>
+              ))}
+            </Swiper>
+          </div>
         </div>
-      </div>
-      {/* slider */}
-      <div className="xl:max-w-[900px] xl:absolute right-0 top-0 ">
-        <Swiper
-          className=""
-          slidesPerView={1}
-          breakpoints={{
-            640: {
-              slidesPerView: 2,
-            },
-          }}
-          spaceBetween={30}
-          modules={pagination}
-          pagination={{ clickable: true }}
-        >
-          {/* Show only the First Four projects for the slides */}
-          {projectData.slice(0, 5).map((project, index) => {
-            return (
-              <SwiperSlide key={index}>
-                <ProjectCard project={project} />
-              </SwiperSlide>
-            );
-          })}
-        </Swiper>
       </div>
     </section>
   );

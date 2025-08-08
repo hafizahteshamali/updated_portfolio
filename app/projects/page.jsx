@@ -6,6 +6,22 @@ import ProjectCard from "@/components/ui/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/zma.png",
+    category: "React.Js",
+    description:
+      "ZMA is a modern IT company based in Pakistan with a European mindset. We build scalable, secure, and innovative tech solutions with a strong focus on Artificial Intelligence and complete project delivery.",
+    name: "ZMA Solutions",
+    link: "https://zma-rho.vercel.app/",
+  },
+  {
+    image: "/work/ai-project.png",
+    category: "Backend",
+    description:
+      "AI-powered contract analysis software is designed to automatically detect unfair or unlawful clauses, compare rent with market prices, and check legal compliance based on recent court rulings.",
+    name: "AI-Contract Analysis",
+    link: "https://ai-analying-tool-dqt5.vercel.app/",
+  },
+  {
     image: "/work/contact-directory.png",
     category: "Backend",
     description:
@@ -223,40 +239,39 @@ const Projects = () => {
   });
 
   return (
-    <section className="min-h-screen pt-12">
-      <div className="container mx-auto">
-        <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto ">
-          My Projects
-        </h2>
-        {/* tabs */}
-        <Tabs defaultValue={category} className="mb-24 xl:mb-48">
-          <TabsList className="w-full grid h-full md:grid-cols-6 lg:max-w-[740px] mb-12 mx-auto md:border dark:border-none">
-            {categories.map((category, index) => {
-              return (
-                <TabsTrigger
-                  onClick={() => setCategory(category)}
-                  value={category}
-                  key={index}
-                  className="capitalize w-[162px] md:w-auto"
-                >
-                  {category}
-                </TabsTrigger>
-              );
-            })}
-          </TabsList>
-          {/* Tabs content */}
-          <div className="text-lg xl:mt-8 grid grid-cols-1 lg:grid-cols-3 gap-4">
-            {filterProject.map((project, index) => {
-              return (
-                <TabsContent value={category} key={index}>
-                  <ProjectCard project={project} />
-                </TabsContent>
-              );
-            })}
-          </div>
-        </Tabs>
+    <section className="min-h-screen w-full pt-12">
+  <div className="container mx-auto w-full lg:w-[90%]">
+    <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
+      My Projects
+    </h2>
+
+    {/* Tabs */}
+    <Tabs defaultValue={category} className="mb-24 xl:mb-48">
+      <TabsList className="w-full grid h-full md:grid-cols-6 lg:max-w-[740px] mb-12 mx-auto md:border dark:border-none">
+        {categories.map((category, index) => (
+          <TabsTrigger
+            onClick={() => setCategory(category)}
+            value={category}
+            key={index}
+            className="capitalize w-[162px] md:w-auto"
+          >
+            {category}
+          </TabsTrigger>
+        ))}
+      </TabsList>
+
+      {/* Tabs content */}
+      <div className="text-lg xl:mt-8 flex flex-wrap justify-between gap-4">
+        {filterProject.map((project, index) => (
+          <TabsContent value={category} key={index} className="w-full md:w-[48%] lg:w-[32%] border border-gray-500">
+            <ProjectCard project={project} />
+          </TabsContent>
+        ))}
       </div>
-    </section>
+    </Tabs>
+  </div>
+</section>
+
   );
 };
 

@@ -19,10 +19,10 @@ const Hero = () => {
   return (
     <section className="py-12 px-3 xl:py-24 xl:pt-28 bg-hero bg-no-repeat bg-bottom bg-cover dark:bg-none">
       <div className="container mx-auto">
-        <div className="flex justify-between gap-x-8">
+        <div className="flex justify-around items-center gap-x-8">
           {/* text */}
           <div className="flex max-w-[600px] flex-col justify-center mx-auto xl:mx-0 text-center xl:text-left">
-            <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px] ">
+            <div className="text-sm uppercase font-semibold mb-4 text-primary tracking-[4px]">
               MERN Stack Developer
             </div>
             <h1 className="h1 mb-4">Hello, my name is Hafiz Ahtesham Ali</h1>
@@ -48,7 +48,7 @@ const Hero = () => {
               <Button variant="secondary" className="gap-x-2">
                 <Link
                   className="flex gap-x-2 items-center"
-                  href="https://drive.google.com/file/d/17jePkMOySxyugl2-Q_l5drufS7SCLzqP/view?usp=drive_link"
+                  href="https://drive.google.com/file/d/1te6PkASayH8vMRqKWpI6eZji-P5EAhz2/view?usp=drive_link"
                 >
                   Download CV <Download size={18} />
                 </Link>
@@ -91,7 +91,7 @@ const Hero = () => {
 
             <div className="w-[500px] h-[500px] bg-no-repeat absolute -top-1 -right-2"></div>
             <DevImg
-              containerStyles="w-[450px] h-[450px] over-flow bg-no-repeat relative bg-bottom"
+              containerStyles="w-[500px] h-[500px] over-flow bg-no-repeat relative bg-bottom"
               imgSrc="/hero/ahteshamAliPic.png"
             />
           </div>

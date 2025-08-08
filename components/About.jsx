@@ -56,7 +56,7 @@ const qualificationData = [
       {
         university: "Indus University Pakistan",
         qualification: "Bachelor in Software Engineering",
-        years: "2022 - 2026",
+        years: "2022 - Currently Enrolled",
       },
     ],
   },
@@ -64,19 +64,19 @@ const qualificationData = [
     title: "experience",
     data: [
       {
+        company: "ITX SOLUTIONS",
+        designation: "MERN Stack Developer",
+        timePeriod: "june(2025) - Present",
+      },
+      {
         company: "Vinspyre (pvt) Ltd",
         designation: "MERN Stack Developer",
-        timePeriod: "October(2024) - Present",
+        timePeriod: "October(2024) - May(2025)",
       },
       {
         company: "Syhtek Software Solution",
         designation: "Frontend Developer",
         timePeriod: "Feb(2024) - June(2024)",
-      },
-      {
-        company: "CodSoft",
-        designation: "Frontend Developer",
-        timePeriod: "Mar(2024) - Apr(2024)",
       },
     ],
   },
@@ -114,7 +114,7 @@ const skillData = [
         name: "EXPRESS JS",
       },
       {
-        name: "MONGO DB",
+        name: "MONGODB",
       },
       {
         name: "O.O.P",
@@ -155,14 +155,14 @@ const About = () => {
   };
 
   return (
-    <section className="xl:h-[860px] pb-12 xl:py-24">
+    <section className="xl:h-[860px] lg:w-[90%] w-full mx-auto pb-12 xl:py-24">
       <div className="container mx-auto">
         <h2 className="section-title mb-8 xl:mb-16 text-center mx-auto">
           About me
         </h2>
-        <div className="flex flex-col xl:flex-row">
+        <div className="flex flex-col xl:flex-row xl:justify-around xl:items-center">
           {/* image */}
-          <div className="hidden xl:flex flex-1 relative">
+          <div className="hidden xl:flex flex-1 relative justify-between">
             <DevImg
               containerStyles="w-[505px] h-[505px] bg-no-repeat relative"
               imgSrc="/about/ahteshamAliPic.jpg"
@@ -210,8 +210,10 @@ const About = () => {
                             className="flex items-center gap-x-1 mx-auto xl:mx-0"
                             key={index}
                           >
-                            <div className="text-primary">{item.icon}</div>
-                            <div>{item.text}</div>
+                            <div className="text-primary text-[14px]">
+                              {item.icon}
+                            </div>
+                            <div className="text-[14px]">{item.text}</div>
                           </div>
                         );
                       })}
@@ -350,8 +352,8 @@ const About = () => {
                             <div key={index}>
                               <Image
                                 src={imgPath}
-                                width={48}
-                                height={48}
+                                width={40}
+                                height={40}
                                 alt=""
                                 priority
                               />
