@@ -29,7 +29,7 @@ const Header = () => {
           : "py-6 px-3 dark:bg-transparent"
       } sticky top-0 z-30 transition-all ${pathname === '/' && 'bg-[#fef9f5] '}`}
     >
-      <div className="container mx-auto">
+      <div className="container mx-auto w-[95%]">
         <div className="flex justify-between items-center">
           <Logo />
           <div className="flex items-center gap-x-6">
