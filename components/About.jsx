@@ -66,18 +66,13 @@ const qualificationData = [
       {
         company: "ITX SOLUTIONS",
         designation: "MERN Stack Developer",
-        timePeriod: "june(2025) - Present",
+        timePeriod: "June(2025) - Present",
       },
       {
         company: "Vinspyre (pvt) Ltd",
         designation: "MERN Stack Developer",
-        timePeriod: "October(2024) - May(2025)",
-      },
-      {
-        company: "Syhtek Software Solution",
-        designation: "Frontend Developer",
-        timePeriod: "Feb(2024) - June(2024)",
-      },
+        timePeriod: "October(2024) - March(2025)",
+      }
     ],
   },
 ];
