@@ -13,6 +13,14 @@ import ProjectCard from "@/components/ui/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/kleine.png",
+    category: "React.Js",
+    description:
+      "Kleine helps teams and founders build unique brand identities and digital experiences through tailored web, content, and growth solutions — turning creative ideas into lasting results.",
+    name: "Kleine",
+    link: "https://kleine-german.vercel.app/",
+  },
+  {
     image: "/work/nextjs-1.png",
     category: "Next.Js",
     description:
