@@ -11,7 +11,7 @@ const projectData = [
     description:
       "Kleine helps teams and founders build unique brand identities and digital experiences through tailored web, content, and growth solutions — turning creative ideas into lasting results.",
     name: "Kleine",
-    link: "https://kleine-german.vercel.app/",
+    link: "https://kleine-german-wiod.vercel.app/",
   },
   {
     image: "/work/zma.png",
@@ -19,7 +19,7 @@ const projectData = [
     description:
       "ZMA is a modern IT company based in Pakistan with a European mindset. We build scalable, secure, and innovative tech solutions with a strong focus on Artificial Intelligence and complete project delivery.",
     name: "ZMA Solutions",
-    link: "https://zma-rho.vercel.app/",
+    link: "https://zma-eta.vercel.app/",
   },
   {
     image: "/work/ai-project.png",
@@ -27,7 +27,7 @@ const projectData = [
     description:
       "AI-powered contract analysis software is designed to automatically detect unfair or unlawful clauses, compare rent with market prices, and check legal compliance based on recent court rulings.",
     name: "AI-Contract Analysis",
-    link: "https://ai-analying-tool-dqt5.vercel.app/",
+    link: "https://ai-analying-tool-z8gh.vercel.app/",
   },
   {
     image: "/work/contact-directory.png",

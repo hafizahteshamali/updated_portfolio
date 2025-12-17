@@ -18,7 +18,7 @@ const projectData = [
     description:
       "Kleine helps teams and founders build unique brand identities and digital experiences through tailored web, content, and growth solutions — turning creative ideas into lasting results.",
     name: "Kleine",
-    link: "https://kleine-german.vercel.app/",
+    link: "https://kleine-german-wiod.vercel.app/",
   },
   {
     image: "/work/nextjs-1.png",
