@@ -66,7 +66,7 @@ const qualificationData = [
       {
         company: "ITX SOLUTIONS",
         designation: "MERN Stack Developer",
-        timePeriod: "June(2025) - Present",
+        timePeriod: "June(2025) - November(2025)",
       },
       {
         company: "Vinspyre (pvt) Ltd",
