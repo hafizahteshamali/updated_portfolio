@@ -13,6 +13,14 @@ import ProjectCard from "@/components/ui/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/3lagent-img.png",
+    category: "MERN",
+    description:
+      "A complete MERN Stack e-commerce application for selling headphones, earbuds, and accessories. It features product browsing, authentication, cart management, and secure order processing using React, Node.js, Express, and MongoDB.",
+    name: "3legant.",
+    link: "https://legant-ecommerce-store-6hh5.vercel.app/",
+  },
+  {
     image: "/work/kleine.png",
     category: "React.Js",
     description:

@@ -6,6 +6,14 @@ import ProjectCard from "@/components/ui/ProjectCard";
 
 const projectData = [
   {
+    image: "/work/3lagent-img.png",
+    category: "MERN",
+    description:
+      "A complete MERN Stack e-commerce application for selling headphones, earbuds, and accessories. It features product browsing, authentication, cart management, and secure order processing using React, Node.js, Express, and MongoDB.",
+    name: "3legant.",
+    link: "https://legant-ecommerce-store-6hh5.vercel.app/",
+  },
+  {
     image: "/work/kleine.png",
     category: "React.Js",
     description:
@@ -23,7 +31,7 @@ const projectData = [
   },
   {
     image: "/work/ai-project.png",
-    category: "Backend",
+    category: "MERN",
     description:
       "AI-powered contract analysis software is designed to automatically detect unfair or unlawful clauses, compare rent with market prices, and check legal compliance based on recent court rulings.",
     name: "AI-Contract Analysis",
@@ -31,17 +39,17 @@ const projectData = [
   },
   {
     image: "/work/contact-directory.png",
-    category: "Backend",
+    category: "MERN",
     description:
-      "Developed a Contact Directory using ReactJS for the frontend and Express.js, Node.js, and MongoDB for the backend, featuring CRUD operations and a responsive design for efficient contact management.",
+      "Developed a Contact Directory using ReactJS for the frontend and Express.js, Node.js, and MongoDB for the MERN, featuring CRUD operations and a responsive design for efficient contact management.",
     name: "Contact Directory",
     link: "https://contact-directory-hqlg.vercel.app/",
   },
   {
     image: "/work/finance-img.png",
-    category: "Backend",
+    category: "MERN",
     description:
-      "Developed a Finance App using ReactJS for the frontend and Express.js, Node.js, and MongoDB for the backend, enabling users to efficiently manage their expenses, track transactions, and generate financial reports. Implemented CRUD operations, responsive design, and secure authentication for a seamless user experience.",
+      "Developed a Finance App using ReactJS for the frontend and Express.js, Node.js, and MongoDB for the MERN, enabling users to efficiently manage their expenses, track transactions, and generate financial reports. Implemented CRUD operations, responsive design, and secure authentication for a seamless user experience.",
     name: "Finance App",
     link: "https://final-hackathon-u3he.vercel.app/",
   },
