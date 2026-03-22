@@ -11,7 +11,7 @@ const projectData = [
     description:
       "A complete MERN Stack e-commerce application for selling headphones, earbuds, and accessories. It features product browsing, authentication, cart management, and secure order processing using React, Node.js, Express, and MongoDB.",
     name: "3legant.",
-    link: "https://legant-ecommerce-store-6hh5.vercel.app/",
+    link: "https://legant-ecommerce-store-b1nh.vercel.app/",
   },
   {
     image: "/work/kleine.png",

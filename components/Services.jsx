@@ -21,56 +21,47 @@ const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
     title: "Single Page Applications (SPAs)",
-    description:
-      "Fast and dynamic websites that load content without refreshing the page, improving speed and user experience. Example: Gmail, Trello.",
+    description: "Fast, dynamic websites that load content without page refresh for smoother user experience.",
   },
   {
     icon: <Layout size={72} strokeWidth={0.8} />,
-    title: "UI/UX Implementation:",
-    description:
-      "Creating pixel-perfect, responsive, and attractive designs using frameworks like Tailwind CSS, Bootstrap, and Material-UI.",
+    title: "UI/UX Implementation",
+    description: "Pixel-perfect, responsive designs using Tailwind CSS, Bootstrap, and Material-UI.",
   },
   {
     icon: <Network size={72} strokeWidth={0.8} />,
     title: "API Integration",
-    description:
-      "Fetching and displaying real-time data from REST APIs or GraphQL to connect the frontend with backend services. Example: Weather apps, e-commerce products.",
+    description: "Seamless integration with REST APIs and GraphQL for real-time data fetching and display.",
   },
   {
     icon: <Database size={72} strokeWidth={0.8} />,
     title: "State Management",
-    description:
-      "Managing complex application states using tools like Redux, Context API, or Zustand to ensure structured data flow.",
+    description: "Efficient state handling using Redux, Context API, or Zustand for predictable data flow.",
   },
   {
     icon: <ShoppingCart size={72} strokeWidth={0.8} />,
     title: "E-commerce Development",
-    description:
-      "Developing product pages, dynamic filters, shopping carts, and payment gateways to create robust e-commerce platforms.",
+    description: "Complete e-commerce solutions with product pages, cart functionality, and payment integration.",
   },
   {
     icon: <PieChart size={72} strokeWidth={0.8} />,
     title: "Dashboards",
-    description:
-      "Designing interactive admin panels and data visualization tools using libraries like Chart.js and Recharts for displaying analytics.",
+    description: "Interactive admin panels and analytics dashboards with Chart.js and Recharts.",
   },
   {
     icon: <ArrowRightLeft size={72} strokeWidth={0.8} />,
     title: "Code Migration",
-    description:
-      "Upgrading legacy projects to modern ReactJS-based architecture for better maintainability and performance.",
+    description: "Upgrading legacy projects to modern ReactJS architecture for better performance.",
   },
   {
     icon: <Code size={72} strokeWidth={0.8} />,
     title: "Frontend Development",
-    description:
-      "Focuses on the visual and interactive parts of a website that users see and interact with. Technologies include HTML, CSS, JavaScript, and libraries/frameworks like ReactJS and NextJS.",
+    description: "Building interactive UIs with HTML, CSS, JavaScript, ReactJS, and NextJS.",
   },
   {
     icon: <Tablet size={72} strokeWidth={0.8} />,
     title: "Responsive Web Design",
-    description:
-      "Creating websites that adjust seamlessly to different screen sizes (mobile, tablet, desktop) using frameworks like Bootstrap, Tailwind CSS, or custom CSS Media Queries.",
+    description: "Mobile-first designs that adapt seamlessly across all devices and screen sizes.",
   },
 ];
 
