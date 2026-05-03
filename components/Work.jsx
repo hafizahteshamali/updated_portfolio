@@ -16,7 +16,7 @@ const projectData = [
     image: "/work/classy-shop.png",
     category: "MERN",
     description:
-      "A complete MERN Stack e-commerce application for selling headphones, earbuds, and accessories. It features product browsing, authentication, cart management, and secure order processing using React, Node.js, Express, and MongoDB.",
+      "My Classy Shop is a sleek and responsive e-commerce web application that delivers a smooth and intuitive shopping experience. Users can easily explore products, view details, and manage their cart with a clean and modern interface.",
     name: "ClassyShop Ecommerce",
     link: "https://my-classyshop-xy8i.vercel.app/",
   },

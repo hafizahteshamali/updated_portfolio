@@ -20,7 +20,7 @@ import {
 const servicesData = [
   {
     icon: <GanttChartSquare size={72} strokeWidth={0.8} />,
-    title: "Single Page Applications (SPAs)",
+    title: "Single Page Applications",
     description: "Fast, dynamic websites that load content without page refresh for smoother user experience.",
   },
   {

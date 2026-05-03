@@ -160,7 +160,7 @@ const About = () => {
           <div className="hidden xl:flex flex-1 relative justify-between">
             <DevImg
               containerStyles="w-[505px] h-[505px] bg-no-repeat relative"
-              imgSrc="/about/ahteshamAliPic.jpg"
+              imgSrc="/about/ahteshamAli.png"
             />
           </div>
 
